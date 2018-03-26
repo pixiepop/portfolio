@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Cinzel', serif; margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	width: 100%; height: auto; position: relative;
+}
+.main-img {
+	width: 100%; height:900px; max-width:100%;
+}
+.top-links a {
+	 color: #000;
+}.top-links a:hover {
+	color: #fff;
+}
+
+.top-links ul li {
+	list-style-type: none; display: inline-block; float: right; padding: 20px; font-size: 22px;
+}
+.main-caption {
+	width: 1000px;  position: absolute; top: 143px; left: 225px; color: #fff;
+}
+span.quote {
+	font-size: 20px; font-family: monospace;
+}
+.top-links {
+	position: absolute; z-index: 999; right: 40px;
+}
+.portfolio-outer, .foot-out {
+	width: 100%; height: auto; position: relative; float: left; margin-bottom: 95px;
+}
+.portfolio-inner, .foot-in {
+	width: 1300px; margin: auto; position: relative; overflow: hidden;
+} 
+.heading h1 a { color: #505050;}
+.heading h1  {
+	text-align: center;border-bottom: solid 1px #8F8C8C; padding-top: 30px; padding-bottom:5px; letter-spacing: 10px;
+}
+.heading {
+	margin-bottom: 5%;
+}
+.heading p {
+	text-align: center; 
+}
+.blocks {
+	width: 100%; height: auto; display: inline; float: left;
+}
+.block1, .block2, .block3 {
+	width: 30%; height: auto;
+}
+.blocks img {
+	width: 100%; 
+}
+.block1, .block2 {
+	margin-right: 5%;
+}
+span.caption {
+	width: 100%; display: block; font-size: 20px; font-family: 'Cinzel', serif;  text-align: center; background: #D0D0D0; color: white; margin-top: -6px;
+}
+.img-blocks {
+	height: 400px;
+}
+img.img-blocks { transition:all 300ms ease; opacity:0.7; filter:grayscale(100%); }
+img.img-blocks:hover { filter:grayscale(0); opacity:1; }
+
+.contact {
+	position: relative; float: left;
+}
+.bottom-quote span {
+	    position: absolute;  bottom: 41px;  color: #fff; font-size: 25px; left: 60px;
+}
+.form {
+	position: absolute; bottom: 281px; width:350px; color: #fff; font-size: 30px; left: 60px;
+}
+h3 a {color: #fff;}
+#form {
+	
+}
+input[type="text"] {
+	padding: 5px 0; width: 350px;
+}
+#form label {
+	display: block;
+}
+input[type="message"] {
+	height: 160px; width: 350px;
+}
+.social{
+	font-size: 35px; padding: 0 15px; color: #000;
+	
+}
+.socials {
+	text-align: center;
+}
+.about-text p {
+	font-size: 20px; text-align: center; margin-bottom: 50px;
+}

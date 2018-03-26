@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="css.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+<script>
+$(document).ready(function(){
+    $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    });
+});
+	</script>
+	
+	
+<div class="wrapper">
+
+<div class="header">
+<div class="top-links">
+
+	<ul>
+		<li><a href="#anchor3" class="scrollLink">ABOUT ME</a></li>
+		<li><a href="#anchor1" class="scrollLink">PORTFOLIO</a></li>
+		<li><a href="#anchor2" class="scrollLink">CONTACT</a></li>
+	</ul>
+</div>
+	<img class="main-img" src="img/pexels-photo-799718.jpg" alt="forest">
+	<div class="main-caption">
+		<span class="quote">“Since we all inhabit the earth, we are all considered earthlings. There is no sexism, racism, or speciesism in the term 'earthling'. It encompasses each and every one of us: warm- or cold-blooded, mammal, vertebrate or invertebrate, bird, reptile, amphibian, fish and human alike.” 
+― Earthlings</span>
+	</div>
+</div>
+<div class="portfolio-outer">
+<div class="portfolio-inner">
+<div class="heading">
+	<h1 id="anchor1">PORTFOLIO</h1>
+	<p>My name is Amy.<br> I'm one woman on a mission to save the planet.<br>Please look at some of my previous environmental work.</p>
+	</div>
+	<div class="blocks">
+		<div class="blocks block1">
+			<img class="img-blocks tiger" src="img/tiger-colour.jpg" alt="Tiger">
+			<span class="caption">Siberain Tigers</span>
+		</div>
+		<div class="blocks block2">
+			<img class="img-blocks horse" src="img/horse-colour.jpg" alt="Horses">
+			<span class="caption">Wild Horses</span>
+		</div>
+		<div class="blocks block3">
+		<img class="img-blocks giraffe" src="img/giraffe-colour.jpg" alt="Giraffe">
+		<span class="caption">West African Giraffe</span>
+		</div>	
+		</div>
+	</div>
+	
+</div>
+<div class="contact">
+	<img class="main-img" src="img/marguerite-daisy-beautiful-beauty (1).jpg" alt="Daisy">
+	<div class="bottom-quote">
+		<span class="quote">"You must be the change you wish to see in the world." ― Mahatma Gandhi</span>
+</div>
+<div class="form">
+	<h3 id="anchor2">CONTACT ME</h3>
+<form id="form">
+	<label>Name</label>
+	<input name="name" type="text">
+	<label>Email</label>
+	<input name="email" type="text">
+	<label>Message</label>
+	<input name="message" type="message">
+</form>
+	
+</div>
+
+</div>	
+<div class="foot-out">
+	<div class="foot-in">
+		<div class="heading">
+			<h1 id="anchor3">ABOUT ME</h1>
+		</div>
+		<div class="about-text">
+			<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum.
+
+Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te.Cu duo omnes invidunt, eos eu mucius fabellas.Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in. Eum facete intellegat ei, ut mazim melius usu. Has elit simul primis ne, regione minimum id cum.<br><br>
+Sea deleniti dissentiet ea. Illud mollis moderatius ut per, at qui ubique populo. Eum ad cibo legimus, vim ei quidam fastidii. Quo debet vivendo ex. Qui ut admodum senserit partiendo. d adipiscing disputando eam, sea id magna pertinax concludaturque. Ex ignota epicurei quo, his ex doctus delenit fabellas, erat timeam cotidieque sit in. Vel eu soleat voluptatibus, cu m cu exerci mediocritatem. Malis legere at per, has brute putant</p>
+		</div>
+		
+		<div class="socials">
+			<a href="#"><span class="social social1"><i class="fa fa-twitter"></i></span></a>
+		<a href="#"><span class="social social2"><i class="fa fa-facebook-f"></i></span></a>
+		<a href="#"><span class="social social3"><i class="fa fa-github"></i></span></a>
+		<a href="#"><span class="social social4"><i class="fa fa-pinterest-p"></i></span></a>
+		
+			
+		</div>
+	</div>
+</div>
+	
+
+	
+
+	
+</div>
+</body>
+</html>
